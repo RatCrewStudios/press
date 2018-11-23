@@ -12,20 +12,20 @@ h1,h2,h3 {
     font-family: "Ubuntu", sans-serif;
     letter-spacing: 0.035rem;
     margin: 1rem 0 0 0;
+    font-weight: bold;
 
 }
 
 h1 {
-    font-size: 34.8px; font-size: 3.478rem;
+    font-size: 28.1px; font-size: 2.81rem;
 }
 
 h2 {
-    font-size: 26.1px; font-size: 2.61rem;
+    font-size: 23.1px; font-size: 2.31rem;
 }
 
 h3 {
     font-size: 13px; font-size: 1.3rem;
-    font-weight: bold;
 }
 
 .card {
@@ -37,3 +37,27 @@ h3 {
  .factsheet {
     max-width: 400px;
  }
+ .lead {
+     font-size: 100%;
+ }
+
+ @media (min-width: 976px) {
+    .maincontainer {
+        max-width: 751px;
+    }
+}
+@media (min-width: 1168px) {
+    .maincontainer {
+        max-width: 720px;
+    }
+}
+@media (min-width: 1392px) {
+    .maincontainer {
+        max-width: 940px;
+    }
+}
+@media (min-width: 1600px)  {
+   .maincontainer {
+       max-width: 1140px;
+   }
+}
