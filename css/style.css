@@ -61,3 +61,14 @@ h3 {
        max-width: 1140px;
    }
 }
+
+.card-img-top
+{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.card-text
+{
+    text-align: center;
+}
